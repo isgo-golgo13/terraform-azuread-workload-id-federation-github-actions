@@ -15,7 +15,7 @@ The module provides GitHub Actions OIDC authentication for Azure AD.
 
 ## Module Reference
 
-```
+```terraform
 module "nonprod_env" {
     source           = "isgo-golgo13/terraform-azuread-workload-id-federation-github-actions"
     version          = "1.0"
