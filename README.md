@@ -20,7 +20,7 @@ module "nonprod_env" {
     source           = "isgo-golgo13/terraform-azuread-workload-id-federation-github-actions"
     version          = "1.0"
 
-    identity_name    = "github-actions-azad-azfedid-oidc"
+    identity_name    = "github-actions-azfedid-oidc"
     repository_name  = "isgo-golgo13/terraform-azure-workload-id-federation-github-actions"
     entity_type      = "environment"
     environment_type = "nonprod"
